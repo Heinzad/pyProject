@@ -1,9 +1,9 @@
 <!-- docs\about-requirements.md -->
 
+requirements: Dependencies
+==========================
 
-
-requirements: Python Library and Package Dependencies
-=====================================================
+*Python Library and Package Dependencies*
 
 Requirements are a list of the packages and their dependencies. The current list may be found in the `requirements.txt` file. 
 
@@ -23,17 +23,15 @@ Requirements are a list of the packages and their dependencies. The current list
 Install a single package
 ------------------------
 
-
 * Verify that the command prompt in the terminal is displaying the `(.venv)` directory path! 
 * Use the `-m` module flag to force the use of this environments' python package installer only. 
 
 Install a package to the virtual environment using the python package installer: 
 
-
 *Bash terminal:*
 
 ```bash
-    python -m pip install python-dotenv
+python -m pip install python-dotenv
 ```
 
 Uninstall a single package
@@ -42,9 +40,8 @@ Uninstall a single package
 *Bash terminal:*
 
 ```bash
-    python -m pip uninstall python-dotenv
+python -m pip uninstall python-dotenv
 ```
-
 
 
 Save a List of Installed Packages
@@ -59,11 +56,10 @@ Pseudocode:
 4. Redirecting (`>`) the output to 
 5. the location where the `requirements.txt` file should be stored.  
 
-
 *Bash terminal:*
 
 ```bash
-    python -m pip freeze > requirements.txt
+python -m pip freeze > requirements.txt
 ```
 
 This will list the package and its version, as well as any dependencies that were automatically installed with the package. 
@@ -87,7 +83,7 @@ Pseudocode:
 *Bash terminal:*
 
 ```bash
-    python -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 
@@ -106,5 +102,5 @@ Pseudocode:
 *Bash terminal:*
 
 ```bash
-    python -m pip uninstall -r requirements.txt -y
+python -m pip uninstall -r requirements.txt -y
 ```
