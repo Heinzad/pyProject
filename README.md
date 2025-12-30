@@ -28,14 +28,21 @@ The directories are:
 .
 ├── .venv/
 ├── docs/
+|   ├── ...
+|   └── README.md
 ├── src/
-|   ├── __init__.py
-|   └── ...
+|   ├── ...
+|   └── README.md
 ├── tests/
+|   ├── ...
+|   └── README.md
 ├── .env
 ├── .gitignore
 ├── requirements.txt
-└── ...
+├── config.py
+├── main.py
+├── LICENSE
+└── README.md
 
 ```
 
