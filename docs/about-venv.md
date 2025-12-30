@@ -1,40 +1,13 @@
 <!-- docs\venv.md --> 
 
+About the Virtual Environment
+=============================
 
+`venv` is the virtual environment where project dependencies are installed.
 
-venv: Virtual Environment
-=========================
-
-The virtual environment (venv) is where library packages are installed for this project. 
 The following instructions describe using a virtual environment with Visual Studio Code (VS code).
 
-- Installing packages in the virtual environment is described separately in `docs\requirements.md`. 
-
-
-### Quickstart: 
-
-*Bash terminal:*
-
-```bash
-    source .venv/Scripts/activate
-
-    deactivate
-```
-
-
-*PowerShell terminal:*
-
-```powershell
-    Set-ExecutionPolicy Unrestricted -Scope Process
-
-    .venv\Scripts\Activate.ps1
-
-    deactivate
-```
-
-
-Overview
---------
+- Installing packages in the virtual environment is described separately in `docs\about-requirements.md`. 
 
 Using a project-specific virtual environment (rather than our machine's environment), isolates dependencies, preventing package versioning conflicts between projects. 
 
@@ -52,7 +25,7 @@ If using Windows PowerShell, permit it to execute processes by removing restrict
 *PowerShell terminal:*
 
 ```powershell
-    Set-ExecutionPolicy Unrestricted -Scope Process
+Set-ExecutionPolicy Unrestricted -Scope Process
 ```
 
 
@@ -75,7 +48,7 @@ Use Git Bash to run the command:
 *Bash terminal:*
 
 ```bash
-    python -m venv .venv
+python -m venv .venv
 ```
 
 We now have a virtual environment for the project, containing `pip` , its own Python package installer. We need to activate the virtual environment before we can use it. 
@@ -91,7 +64,7 @@ If using Git Bash, provide the path to the activation script in the virtual envi
 *Bash terminal:*
 
 ```bash
-    source .venv/Scripts/activate
+source .venv/Scripts/activate
 ```
 
 If using Windows PowerShell, provide the path to the activation script for PowerShell, in the 'Scripts' directory of the virtual environment:  
@@ -99,7 +72,7 @@ If using Windows PowerShell, provide the path to the activation script for Power
 *PowerShell terminal:*
 
 ```powershell
-    .venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 ```
 
 If successful, command prompts will now be prefixed with `(.venv)`, the virtual environment directory. 
@@ -116,7 +89,7 @@ Upgrade to the latest version of this python package installer:
 *Bash terminal:*
 
 ```bash
-    python -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 
 
@@ -129,7 +102,7 @@ You can stop the virtual environment running with the `deactivate` command:
 *Bash terminal:*
 
 ```bash
-    deactivate
+deactivate
 ```
 
 
