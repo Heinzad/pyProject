@@ -25,28 +25,32 @@ The directories are:
 
 
 ```
-.
+pyproject/
 ├── .venv/
-├── docs/
+├── data/                   # Data Files directory
 |   ├── ...
 |   └── README.md
-├── src/
+├── docs/                   # Documentation directory
 |   ├── ...
 |   └── README.md
-├── tests/
+├── scripts/                # Executable Scripts directory
+|   ├── ...
+|   └── README.md
+├── src/                    # Source Code directory
+|   ├── ...
+|   └── README.md
+├── tests/                  # Test Suite directory
 |   ├── ...
 |   └── README.md
 ├── .env
 ├── .gitignore
+├── CHANGELOG.md
 ├── requirements.txt
 ├── config.py
 ├── main.py
 ├── LICENSE
 └── README.md
-
 ```
-
-
 
 
 Requirements
