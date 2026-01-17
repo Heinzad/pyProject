@@ -2,10 +2,11 @@
 DIRECTORY
 
 
-Data
-====
+Data Files
+==========
 
-Contains only information that is safe to be published on github. 
+Contains data files that are safe to be published on github. 
 
-- Human-readable data structures like `csv` or `json` recommended. 
-- May be divided into sub-directories. 
+- Human-readable file types like `csv` or `json` recommended. 
+- May be divided into sub-directories as appropriate.
+ 
